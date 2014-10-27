@@ -1,0 +1,480 @@
+html,
+body{
+	width: 100%;
+	overflow-x: hidden;
+	background-color: rgb(50, 50, 50);
+}
+
+.navfixed {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(100, 100, 100, 0.6);
+    border: 0px;
+    border-radius: 0px;
+    height: 80px;
+}
+
+.navema{
+	height: 80px;
+}
+
+.nopadding {
+    padding: 0px;
+}
+
+.navwidth {
+    width: 100%;
+}
+
+#header{
+	margin-top: 0px;
+}
+
+.bottone{
+	width: 20%;
+	text-align: center;
+	background-color: rgba(255,255,255,0);
+	height: 80px;
+}
+
+.bottone:active{
+	width: 20%;
+	background-color: rgba(255,255,255,0);
+}
+
+.footer{
+	width: 0px;
+	height: 0px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: rgba(255,255,255,0.2);
+	color: rgb(168,227,99);
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-top: 30px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #ffffff;
+	padding-top: 30px;
+	font-size: 30px;
+	font-weight: 100;
+	font-family: 'Poiret One', cursive;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+	color: rgb(168,227,99);
+}
+
+.testohome{
+	z-index: 1;
+	font-size: 40px;
+	font-weight: 100;
+	color: white;
+	margin-top: 30vh;
+	margin-bottom: auto;
+	text-align: center;
+	text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.8);
+	font-family: 'Poiret One', san-serif;
+}
+
+.imghome{
+	background-image: url(../images/home.jpg);
+	width: 100vw;
+	height: 100vh;
+	background-position: center center;
+	background-repeat: no-repeat;
+	z-index: 0;
+
+}
+
+.posizione{
+	position: absolute;
+}
+
+.photo{
+	float: left;
+	border: 2px solid white;
+}
+
+.photobg{
+	padding-top: 80px;
+}
+
+.graphicbg{
+	padding-top: 80px;
+}
+
+.over:hover{
+	-webkit-filter: brightness(1.5);
+	filter: brightness(1.5);
+}
+
+.margintopvideo{
+	margin-top: 70px;
+}
+
+.iframe{
+	margin-top: 50px;
+}
+
+.titolovideo{
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	color: rgb(50,50,50);
+	margin-top: 10px;
+	background-color: rgb(168,227,99);
+	margin-top: 10px;
+	font-family: 'Poiret One', cursive;
+	border: 1px solid #000;
+	line-height: 1.7;
+}
+
+.cv{
+	color: rgb(50,50,50);
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	margin-top: 50px;
+	background-color: rgb(168,227,99);
+	margin-bottom: 25px;
+	font-family: 'Poiret One', cursive;
+	line-height: 1.7;
+}
+
+.graphic{
+	padding-right: 5px;
+	padding-bottom: 15px;
+}
+
+.graphic:hover{
+	-webkit-filter: brightness(0.8);
+	filter: brightness(0.8);
+}
+
+.titolographic{
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	color: rgb(50,50,50);
+	background-color: rgb(168,227,99);
+	margin-bottom: 35px;
+	font-family: 'Poiret One', cursive;
+	border: 1px solid #000;
+	line-height: 1.7;
+}
+
+.testographic{
+	text-align: left;
+	font-weight: 100;
+	font-size: 21px;
+	color: white;
+	margin-bottom: 25px;
+	letter-spacing: 1px;
+	font-family: 'Poiret One', cursive;
+}
+
+.graphicdiv{
+	text-align: center;
+}
+
+.worktitle{
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	color: rgb(168,227,99);
+	font-family: 'Poiret One', cursive;
+}
+
+.fotopersonale{
+	width: 100%;
+	height: 100%;
+}
+
+.margintopcontact{
+	margin-top: 120px;
+}
+
+.contatti{
+	font-size: 21px;
+	font-weight: 100;
+	text-align: left;
+	color: white;
+	font-family: 'Poiret One', cursive;
+}
+
+.contattigreen{
+	font-size: 21px;
+	font-weight: 100;
+	text-align: left;
+	color: rgb(168,227,99);
+	font-family: 'Poiret One', cursive;
+}
+
+.contattititle{
+	font-weight: 100;
+	font-size: 30px;
+	text-align: left;
+	color: rgb(168,227,99);
+	font-family: 'Poiret One', cursive;
+}
+
+.bottonecollassato{
+	height: 60px;
+	width: 60px;
+	margin-right: 28px;
+}
+
+.navbar-toggle .icon-bar {
+	display: block;
+	width: 38px;
+	height: 2px;
+	border-radius: 1px;
+}
+
+.navbar-default .navbar-toggle {
+border-color: rgb(168, 227, 99);
+background-color: rgba(255, 255, 255,0);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color: rgb(168,227,99);
+}
+
+.navbar-default .navbar-toggle .icon-bar:hover {
+background-color: rgb(168,227,99);
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: rgba(255, 255, 255,0);
+}
+
+.paddinginverso{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.marginesottovideo{
+	margin-bottom: 30px;
+}
+
+
+
+
+@media (max-width: 1024px) {
+.navbar-header {
+    float: none;
+}
+.navbar-toggle {
+    display: block;
+}
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-collapse.collapse {
+    display: none!important;
+}
+.navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+}
+.navbar-nav>li {
+    float: none;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-collapse.collapse.in { 
+    display: block!important;
+}
+.collapsing {
+    overflow: hidden!important;
+}
+
+.navwidth {
+	width: 100%;
+	background-color: rgba(80,80,80,1);
+	margin: 0px;
+	padding-top: 10px;
+}
+
+.bottone{
+	width: 20%;
+	text-align: left;
+	background-color: rgba(255,255,255,0);
+	height: 80px;
+	padding-left: 30px;
+}
+
+.bottone:active{
+	width: 20%;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: rgba(80,80,80,1);
+	color: rgb(168,227,99);
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-top: 30px;
+}
+
+.testographic {
+	text-align: left;
+	font-weight: 100;
+	font-size: 21px;
+	color: white;
+	margin-bottom: 25px;
+	letter-spacing: 1px;
+	font-family: 'Poiret One', cursive;
+}
+
+.cv{
+	color: white;
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	margin-top: 50px;
+	background-color: rgb(168,227,99);
+	margin-bottom: 25px;
+	font-family: 'Poiret One', cursive;
+}
+
+.testohome{
+	z-index: 1;
+	font-size: 40px;
+	font-weight: 100;
+	color: white;
+	margin-top: 35vh;
+	margin-bottom: auto;
+	text-align: center;
+	text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.8);
+	line-height: 1.1;
+	font-family: 'Poiret One', cursive;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #ffffff;
+	padding-top: 30px;
+	font-size: 30px;
+	font-weight: 100;
+	font-family: 'Poiret One', cursive;
+}
+
+.worktitle {
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	color: rgb(168,227,99);
+	font-family: 'Poiret One', cursive;
+}
+
+.contatti {
+	font-size: 21px;
+	font-weight: 100;
+	text-align: left;
+	color: white;
+	font-family: 'Poiret One', cursive;
+}
+
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+.navfixed {
+    position: relative;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(100, 100, 100, 0.6);
+    border: 0px;
+    border-radius: 0px;
+    height: 80px;
+    margin-bottom: 0px;
+}
+
+.photobg{
+	padding-top: 0px;
+}
+
+.margintopvideo{
+	margin-top: 0px;
+}
+
+.titolovideo{
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	color: rgb(50,50,50);
+	margin-top: 0px;
+	background-color: rgb(168,227,99);
+	font-family: 'Poiret One', cursive;
+	border: 1px solid #000;
+	line-height: 1.7;
+}
+
+.graphicbg{
+	padding-top: 0px;
+}
+
+.testographic {
+	text-align: left;
+	font-weight: 100;
+	font-size: 21px;
+	color: white;
+	margin-bottom: 25px;
+	letter-spacing: 1px;
+	font-family: 'Poiret One', cursive;
+	margin-top:-20px;
+}
+
+.margintopcontact {
+	margin-top: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

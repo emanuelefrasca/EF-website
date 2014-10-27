@@ -1,0 +1,69 @@
+extends ../layouts/default
+
+mixin post(post)
+	.post(data-ks-editable=editable(user, { list: 'Post', id: post.id }))
+		.worktitle: p(href='/blog/post/' + post.slug)= post.title
+		.testographic!= post.content.brief
+
+block content
+	.container-fluid.row.margintopcontact
+		.col-sm-4.col-sm-offset-2
+			img(src='../images/cv.jpg', class='fotopersonale')
+		.col-sm-4
+			.contattititle
+				|contattami
+			.contatti
+				|Emanuele Frascà
+				br
+				|mail 
+				span.contattigreen • 
+				|emanuele.frasca@mail.com
+				br
+				|phone 
+				span.contattigreen • 
+				|+39 3924607763
+				br
+				|skyoe 
+				span.contattigreen • 
+				|frasca_emanuele
+
+	.container-fluid
+		.row
+			.col-sm-12.nopadding
+				.cv
+					|curriculum vitae
+				.testographic.paddinginverso
+					|Con la laurea in Disegno Industriale sostenuta presso l'Università degli Studi di Roma "La Sapienza" ho sviluppato elevate competenze in ambito informatico e progettuale. La grafica, l'interaction design, la fotografia, il web e le nuove tecnologie sono stati i campi in cui mi sono specializzato maggiormente.
+					|I lavori svolti in questi ambiti mi hanno spesso messo in condizioni limite dalle quali sono sempre riuscito ad uscire in maniera vincente. La progettualità è fondamentale in quanto senza di essa non si ha una linea guida da poter percorrere, valicare, modificare o stravolgere completamente. Inoltre ho ottime competenze nella post produzione delle immagini sia per la stampa che per il web, color correction, fotomontaggi, impaginazione testuale tipografica e digitale.
+					|Uso abitualmente e conosco molto bene tutto il pacchedo Adobe (Photoshop, Illustrator, InDesgn, Bridge, Audition, Premiere, Lightroom). Per la modellazione 3d e rendering ho una buona manualità con 3d Studio Max, Rhinoceros e Vray. Ovviamente ho piena pradonanza del pacchetto Office e dei sistemi operativi Windows e Osx. Da un pò di tempo sto approfondendo Html5 e Css3.
+		.row
+			.col-sm-8.col-sm-offset-2
+				if filters.category && !data.category
+					h3.text-muted Invalid Category.
+				else
+					if data.posts.results.length
+						if data.posts.totalPages > 1
+						.blog
+							each post in data.posts.results
+								+post(post)
+						
+						if data.posts.totalPages > 1
+							ul.pagination
+								if data.posts.previous
+									li: a(href='?page=' + data.posts.previous): span.glyphicon.glyphicon-chevron-left
+								else
+									li.disabled: a(href='?page=' + 1): span.glyphicon.glyphicon-chevron-left
+								each p, i in data.posts.pages
+									li(class=data.posts.currentPage == p ? 'active' : null)
+										a(href='?page=' + (p == '...' ? (i ? data.posts.totalPages : 1) : p ))= p
+								if data.posts.next
+									li: a(href='?page=' + data.posts.next): span.glyphicon.glyphicon-chevron-right
+								else
+									li.disabled: a(href='?page=' + data.posts.totalPages): span.entypo.glyphicon.glyphicon-chevron-right
+					else
+						if data.category
+							h3.text-muted There are no posts in the category #{data.category.name}.
+						else
+							h3.text-muted There are no posts yet.
+			
+			
