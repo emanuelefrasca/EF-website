@@ -14,7 +14,7 @@ var keystone = require('keystone');
 keystone.init({
 
 	'name': 'EF-website',
-	'brand': 'EF-website',
+	'brand': 'Emanuele Frascà',
 
 	'less': 'public',
 	'static': 'public',
@@ -26,7 +26,9 @@ keystone.init({
 	'session': true,
 	'auth': true,
 	'user model': 'User',
-	'cookie secret': 'M"P7@0IP(~eM8gL++yRH*FwId>18EH57aZ0`ETvyWiZe^VX6qPbi*4r;8d"Ie9eT'
+	'cookie secret': 'M"P7@0IP(~eM8gL++yRH*FwId>18EH57aZ0`ETvyWiZe^VX6qPbi*4r;8d"Ie9eT',
+	'host': '107.170.32.224',
+	'port': 9002
 
 });
 
