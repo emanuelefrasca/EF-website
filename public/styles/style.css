@@ -129,7 +129,7 @@ body{
 	background-color: rgb(168,227,99);
 	margin-top: 10px;
 	font-family: 'Poiret One', cursive;
-	border: 1px solid #000;
+	border: 1px solid rgb(50,50,50);
 	line-height: 1.7;
 }
 
@@ -163,7 +163,7 @@ body{
 	background-color: rgb(168,227,99);
 	margin-bottom: 35px;
 	font-family: 'Poiret One', cursive;
-	border: 1px solid #000;
+	border: 1px solid rgb(50,50,50);
 	line-height: 1.7;
 }
 
@@ -261,6 +261,14 @@ background-color: rgba(255, 255, 255,0);
 	margin-bottom: 30px;
 }
 
+.mailcolor{
+	color: white;
+}
+
+.mailcolor:hover{
+	color: white;
+}
+
 
 
 
@@ -335,7 +343,7 @@ background-color: rgba(255, 255, 255,0);
 }
 
 .cv{
-	color: white;
+	color: rgb(50,50,50);
 	text-align: center;
 	font-weight: 100;
 	font-size: 30px;
@@ -418,7 +426,7 @@ background-color: rgba(255, 255, 255,0);
 	margin-top: 0px;
 	background-color: rgb(168,227,99);
 	font-family: 'Poiret One', cursive;
-	border: 1px solid #000;
+	border: 1px solid rgb(50,50,50);
 	line-height: 1.7;
 }
 
