@@ -276,7 +276,6 @@ background-color: rgba(255, 255, 255,0);
 
 
 
-
 @media (max-width: 1024px) {
 .navbar-header {
     float: none;
@@ -452,6 +451,19 @@ background-color: rgba(255, 255, 255,0);
 
 .margintopcontact {
 	margin-top: 20px;
+}
+
+.testohome{
+	z-index: 1;
+	font-size: 40px;
+	font-weight: 100;
+	color: white;
+	margin-top: 25vh;
+	margin-bottom: auto;
+	text-align: center;
+	text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.8);
+	line-height: 1.1;
+	font-family: 'Poiret One', cursive;
 }
 
 }
