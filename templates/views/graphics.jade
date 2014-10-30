@@ -26,7 +26,7 @@ block content
 							.links.graphicdiv
 								each image in galleries[i].images
 									a(href=image.url, title=galleries[i].name)
-										img(src=image.limit(auto,100), class='slide-show graphic')
+										img(src=image.limit(auto,80), class='slide-show graphic')
 				- }
 			.col-sm-4.nopadding
 				- for (var i = first_cols; i < 2*first_cols; i += 1) {
@@ -36,7 +36,7 @@ block content
 							.links.graphicdiv
 								each image in galleries[i].images
 									a(href=image.url, title=galleries[i].name)
-										img(src=image.limit(auto,100), class='slide-show graphic')
+										img(src=image.limit(auto,80), class='slide-show graphic')
 				- }
 			.col-sm-4.nopadding
 				- for (var i = 2*first_cols; i < length; i += 1) {
@@ -46,7 +46,7 @@ block content
 							.links.graphicdiv
 								each image in galleries[i].images
 									a(href=image.url, title=galleries[i].name)
-										img(src=image.limit(auto,100), class='slide-show graphic')
+										img(src=image.limit(auto,80), class='slide-show graphic')
 				- }
 
 
@@ -59,9 +59,7 @@ block content
 
 
 block js
-	<!--slideshow-->
 	script(src='libs/gallery/js/blueimp-gallery.min.js')
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
 	script.
 		$('.links').on('click', function (event) {
