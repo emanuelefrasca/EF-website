@@ -16,16 +16,38 @@ block content
 
 	.container-fluid.graphicbg
 		.row
-			if galleries.length
-				each gallery in galleries
-					.col-sm-4.nopadding
-						.titolographic= gallery.name
-						.testographic.paddinginverso= gallery.description
-						.col-sm-12
+		- var length = galleries.length;
+		- var first_cols = Math.round(length / 3);
+			.col-sm-4.nopadding
+				- for (var i = 0; i < first_cols; i += 1) {
+						.titolographic= galleries[i].name
+						.testographic.paddinginverso= galleries[i].description
+
 							.links.graphicdiv
-								each image in gallery.images
-									a(href=image.url, title=gallery.name)
+								each image in galleries[i].images
+									a(href=image.url, title=galleries[i].name)
 										img(src=image.limit(auto,100), class='slide-show graphic')
+				- }
+			.col-sm-4.nopadding
+				- for (var i = first_cols; i < 2*first_cols; i += 1) {
+						.titolographic= galleries[i].name
+						.testographic.paddinginverso= galleries[i].description
+
+							.links.graphicdiv
+								each image in galleries[i].images
+									a(href=image.url, title=galleries[i].name)
+										img(src=image.limit(auto,100), class='slide-show graphic')
+				- }
+			.col-sm-4.nopadding
+				- for (var i = 2*first_cols; i < length; i += 1) {
+						.titolographic= galleries[i].name
+						.testographic.paddinginverso= galleries[i].description
+
+							.links.graphicdiv
+								each image in galleries[i].images
+									a(href=image.url, title=galleries[i].name)
+										img(src=image.limit(auto,100), class='slide-show graphic')
+				- }
 
 
 
