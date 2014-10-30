@@ -105,6 +105,8 @@ body{
 
 .graphicbg{
 	padding-top: 80px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .over:hover{
@@ -436,6 +438,8 @@ background-color: rgba(255, 255, 255,0);
 
 .graphicbg{
 	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .testographic {
