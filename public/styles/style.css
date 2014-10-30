@@ -50,7 +50,7 @@ body{
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover{
 	background-color: rgba(255,255,255,0.2);
-	color: rgb(168,227,99);
+	color: #ffd548;
 	margin-top: auto;
 	margin-bottom: auto;
 	padding-top: 30px;
@@ -65,7 +65,7 @@ body{
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-	color: rgb(168,227,99);
+	color: #ffd548;
 }
 
 .testohome{
@@ -126,7 +126,7 @@ body{
 	font-size: 30px;
 	color: rgb(50,50,50);
 	margin-top: 10px;
-	background-color: rgb(168,227,99);
+	background-color: #ffd548;
 	margin-top: 10px;
 	font-family: 'Poiret One', cursive;
 	border: 1px solid rgb(50,50,50);
@@ -139,7 +139,7 @@ body{
 	font-weight: 100;
 	font-size: 30px;
 	margin-top: 50px;
-	background-color: rgb(168,227,99);
+	background-color: #ffd548;
 	margin-bottom: 25px;
 	font-family: 'Poiret One', cursive;
 	line-height: 1.7;
@@ -160,7 +160,7 @@ body{
 	font-weight: 100;
 	font-size: 30px;
 	color: rgb(50,50,50);
-	background-color: rgb(168,227,99);
+	background-color: #ffd548;
 	margin-bottom: 25px;
 	font-family: 'Poiret One', cursive;
 	border: 1px solid rgb(50,50,50);
@@ -185,7 +185,7 @@ body{
 	text-align: center;
 	font-weight: 100;
 	font-size: 30px;
-	color: rgb(168,227,99);
+	color: #ffd548;
 	font-family: 'Poiret One', cursive;
 }
 
@@ -210,7 +210,7 @@ body{
 	font-size: 21px;
 	font-weight: 100;
 	text-align: left;
-	color: rgb(168,227,99);
+	color: #ffd548;
 	font-family: 'Poiret One', cursive;
 }
 
@@ -218,7 +218,7 @@ body{
 	font-weight: 100;
 	font-size: 30px;
 	text-align: left;
-	color: rgb(168,227,99);
+	color: #ffd548;
 	font-family: 'Poiret One', cursive;
 }
 
@@ -236,16 +236,16 @@ body{
 }
 
 .navbar-default .navbar-toggle {
-border-color: rgb(168,227,99);
+border-color: #ffd548;
 background-color: rgba(255, 255, 255,0);
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-background-color: rgb(168,227,99);
+background-color: #ffd548;
 }
 
 .navbar-default .navbar-toggle .icon-bar:hover {
-background-color: rgb(168,227,99);
+background-color: #ffd548;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -330,7 +330,7 @@ background-color: rgba(255, 255, 255,0);
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
 	background-color: rgba(80,80,80,1);
-	color: rgb(168,227,99);
+	color: #ffd548;
 	margin-top: auto;
 	margin-bottom: auto;
 	padding-top: 30px;
@@ -352,7 +352,7 @@ background-color: rgba(255, 255, 255,0);
 	font-weight: 100;
 	font-size: 30px;
 	margin-top: 50px;
-	background-color: rgb(168,227,99);
+	background-color: #ffd548;
 	margin-bottom: 25px;
 	font-family: 'Poiret One', cursive;
 }
@@ -382,7 +382,7 @@ background-color: rgba(255, 255, 255,0);
 	text-align: center;
 	font-weight: 100;
 	font-size: 30px;
-	color: rgb(168,227,99);
+	color: #ffd548;
 	font-family: 'Poiret One', cursive;
 }
 
@@ -428,7 +428,7 @@ background-color: rgba(255, 255, 255,0);
 	font-size: 30px;
 	color: rgb(50,50,50);
 	margin-top: 0px;
-	background-color: rgb(168,227,99);
+	background-color: #ffd548;
 	font-family: 'Poiret One', cursive;
 	border: 1px solid rgb(50,50,50);
 	line-height: 1.7;
