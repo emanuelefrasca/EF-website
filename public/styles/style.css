@@ -114,6 +114,11 @@ body{
 	filter: brightness(1.5);
 }
 
+div.links a:first-child img.over:hover{
+	-webkit-filter: none;
+	filter: none;
+}
+
 .margintopvideo{
 	margin-top: 70px;
 }
