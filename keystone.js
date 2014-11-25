@@ -27,8 +27,8 @@ keystone.init({
 	'auth': true,
 	'user model': 'User',
 	'cookie secret': 'M"P7@0IP(~eM8gL++yRH*FwId>18EH57aZ0`ETvyWiZe^VX6qPbi*4r;8d"Ie9eT'
-	, 'host': '107.170.32.224'
-	, 'port': 9002
+	//, 'host': '107.170.32.224'
+	//, 'port': 9002
 
 });
 
